@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.infinityfreeapp.tanyaariaja.twa",
+        "sha256_cert_fingerprints": ["3D:40:F6:CF:4F:34:96:B9:46:97:95:B2:A7:1F:D8:CD:82:DD:54:78:2A:3B:53:AD:54:8D:DC:C6:1B:C6:06:B7"]
+      }
+    }]
