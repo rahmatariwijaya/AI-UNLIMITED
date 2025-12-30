@@ -1,8 +1,8 @@
 [{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.rahmatariwijaya.twa",
-        "sha256_cert_fingerprints": ["8A:66:40:94:CA:06:6E:9D:57:77:B4:61:ED:97:28:A2:E3:D3:54:2F:E6:D3:86:99:A6:2D:5A:62:8E:1E:81:EA"]
-      }
-    }]
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.tanya.ari",
+    "sha256_cert_fingerprints": ["7F:7E:6D:E7:2B:E4:31:34:F7:55:76:7F:31:6C:54:15:37:A6:49:55:05:8B:2A:44:A2:3E:C5:1B:32:0C:5F:A7"]
+  }
+}]
