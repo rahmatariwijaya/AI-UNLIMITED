@@ -1275,27 +1275,6 @@
         });
     };
 
-  <script>
-  if ("serviceWorker" in navigator) {
-    window.addEventListener("load", async () => {
-      try {
-        // Mendaftarkan Service Worker dengan Scope folder project kamu
-        // Gunakan './sw.js' (titik slash) agar jalurnya benar di GitHub
-        const reg = await navigator.serviceWorker.register("./sw.js", {
-          scope: "https://rahmatariwijaya.github.io/AI-UNLIMITED/"
-        });
-
-        console.log("Service Worker Berhasil Aktif! Scope:", reg.scope);
-
-        // Opsional: Meminta izin notifikasi
-        if (Notification.permission === "default") {
-          await Notification.requestPermission();
-        }
-      } catch (err) {
-        console.error("Gagal mendaftarkan Service Worker:", err);
-      }
-    });
-  }
 </script>
 </body>
 </html>
