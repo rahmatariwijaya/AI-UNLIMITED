@@ -1,8 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.tanya.ari",
-    "sha256_cert_fingerprints": ["7F:7E:6D:E7:2B:E4:31:34:F7:55:76:7F:31:6C:54:15:37:A6:49:55:05:8B:2A:44:A2:3E:C5:1B:32:0C:5F:A7"]
-  }
-}]
